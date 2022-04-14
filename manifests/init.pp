@@ -22,7 +22,7 @@ class linux_mgmt {
         'ldap_id_mapping'                => 'True',
         'fallback_homedir'               => '/home/%u',
         'access_provider' => 'simple',
-        'simple_allow_groups' => 'Domain Admins',
+        'simple_allow_groups' => 'Domain Admins,Server Admins',
         'ldap_sasl_authid' => "$::hostname",
         'sudo_provider' => 'ad',
       },
